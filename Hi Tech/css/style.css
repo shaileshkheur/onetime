@@ -1,0 +1,454 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	scroll-behavior:smooth;
+}
+
+
+/*bannertwo price size type*/
+
+ .carousel-caption{
+ 	width:50%;
+ 	position:absolute;
+ 	background-color:#ffffffc9;
+ 	border-radius:0 40px;
+ 	text-align:left;
+ 	bottom:50px;
+ 	left:30px;
+ 	z-index:10;
+ 	right:auto;
+ }
+
+ .icn_area {
+    border-right: 1px solid #4e4e4e;
+    overflow: auto;
+    color: #921d61;
+    text-align: center;
+}
+
+.icn_area span{
+	display:block;
+	line-height:100%;
+	font-size:16px;
+	margin-bottom:1px;
+}
+
+.icn_area label{
+	color:#000000;
+	font-size:17px;
+	line-height:100%;
+}
+
+
+button.btn.btn-outline-warning.knowmore {
+    background-color:#921d61;
+    color:#ffffff;
+}
+
+ .p_highlights ul {
+    font-size: 18px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: auto;
+}
+
+nav.navbar.navbar-expand-lg.navbar-light.bg-light.beone {
+    background-color: #d11d1d!imp;
+    width: 100%;
+    background-color: #ffffff!important;
+    position: fixed;
+    /* top: 34px; */
+    z-index: 999;
+    box-shadow:0px 15px -10px #000000!important;
+}
+
+
+
+/*overview*/
+
+.desiarea {
+  padding-top:32px;
+}
+
+.headingarea {
+    text-align: center;
+    padding-bottom: 16px;
+}
+
+.headingarea h2::after {
+    content: "";
+    width: 103px;
+    background-color: #000000;
+    display: block;
+    /* text-align: center; */
+    height: 2px;
+    margin: 0 auto;
+    /* padding: 4px 0px; */
+    margin-top: 10px;
+}
+
+.col-lg-6.highlight {
+    border-right: 1px solid #dcdcdc;
+    text-align: justify;
+    font-size: 16px;
+}
+
+div#amen {
+    margin-top:47px;
+    background-color:#921d61;
+}
+
+.p_highlights ul li::before{
+	content:"뙒";
+	float:left;
+	display:block;
+	width:25px;
+	color:#921d61;
+	font-size:16px;
+	font-weight:700;
+
+}
+
+.p_highlights ul li span{
+	margin-left:35px;
+	display:block;
+	font-weight:600;
+
+}
+
+.p_highlights ul li {
+	border-top:1px dotted #dcdcdc;
+	margin:0;
+	padding:0;
+	margin-bottom:16px;
+}
+
+/*overview*/
+
+
+
+/*amenities*/
+
+  .resi_list{
+  	list-style:none;
+  	margin-bottom:16px;
+  	overflow:auto;
+  	margin:0;
+  	padding:0;
+  } 
+
+ ul.resi_list {
+    margin-left:26%;
+  }
+
+.h3.amenities-heading {
+    text-align: center;
+    color: #ffffff;
+    margin-top: 2%;
+    margin-bottom: 16px;
+    }
+
+ ul.resi_list li{
+ 	color:#ffffff;
+ 	font-size:18px;
+ }
+
+ ul.resi_list li i {
+    color: #ffffff;
+    padding-right: 5px;
+}  
+
+/*amenities*/
+
+
+
+
+/*priceList*/
+
+.price_inner {
+    padding: 2rem 0.5rem;
+}
+
+ .price_inner {
+    border: 1px solid #921d61;
+    text-align: center;
+    position: relative;
+    font-size: 16px;
+}
+
+.rc_one{
+	border-bottom: 1px solid #ccc;
+    line-height: 170%;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.price_inner .rc_one {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.rc_one span{
+	display:block;
+	font-weight:600;
+	letter-spacing:1px;
+	font-size:18px;
+}
+
+.price_inner .btn{
+	padding:6px 9px;
+}
+
+.knowmore {
+	margin-top:1rem;
+}
+
+section#priceList {
+    padding: 32px;
+}
+
+div#pricelistid h2 {
+    text-align: center;
+}
+
+/*priceList*/
+
+
+
+/*plocation*/
+
+.col-lg-6.col-sm-6.amenities {
+    background-color: #921d61;
+}
+
+.loca_inner {
+    padding-top: 5%;
+    padding-bottom: 0;
+}
+
+.loca_inner ul{
+	list-style-type:0;
+	margin:0;
+	padding:0;
+	overflow:auto;
+}
+
+.loca_inner ul li span {
+    display: block;
+    margin-left:25px;
+}
+
+.loca_inner ul li{
+	letter-spacing:2px;
+	padding-top:15px;
+	float:left;
+	margin-bottom:0.5rem;
+	width:100%;
+}
+
+.loca_inner ul li ::before {
+    content: #;
+    content: "뙒";
+    float: left;
+    color: #ffffff;
+    margin-right: 0.5rem;
+    font-family: symbol;
+}
+
+.loca_inner h2{
+	text-align:center;
+}
+
+/*plocation*/
+
+
+
+/*formcss*/
+.flr_form{
+	position:relative;
+	background-color:#921d61;
+	background-image: radial-gradient(#921d61,#080808,#921d61);
+
+}
+
+.flr_form .form-control{
+	display:block;
+	width:100%;
+	font-weight:400;
+	line-height:1.5;
+	background-color:#ffffff;
+	background-clip:padding-box;
+	border-radius:0;
+	margin-bottom:13px;
+   height:43;
+}
+
+
+.phonenumber a{
+	font-size:20px;
+	color:#ffffff;
+	font-weight:700;
+	position:relative;
+	text-align:center!important;
+	display:block;
+	text-decoration:none;
+}
+
+.sitevisit span{
+   font-size:20px;
+	color:#ffffff;
+	font-weight:700;
+	position:relative;
+	text-align:center!important;
+	display:block;
+	text-decoration:none;
+}
+
+.flr_form_inner {
+    padding: 15px 0px;
+}
+
+
+/*plocation-com*/
+
+section#location {
+    background-color: #921d61;
+    color: #ffffff;
+}
+
+
+/*specific*/
+section.specific_com {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+
+
+/*footer*/
+
+.bottomcolor{
+	background-color:#000000;
+}
+
+.bottomcolor p{
+	color:#ffffff;
+}
+
+p.webi{
+	 text-align:center;
+    color:#fff;
+    padding:10px 0;
+    background-color:#921d61!important;
+    display:block;
+    width:100%;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom:0!important;
+}
+
+
+
+/*mediaquiery*/
+
+@media screen and (max-width:768px) {
+  .headingarea {
+    text-align: center;
+    padding-bottom: 16px;
+    padding-top: 15px;
+  }
+
+  .headingarea h2 {
+    font-size:21px;
+    padding-top:32px;
+  }
+
+  .carousel-caption {
+    width: 50%;
+    position: absolute;
+    background-color: #ffffffc9;
+    border-radius: 0 40px;
+    text-align: left;
+    bottom: 50px;
+    left: 30px;
+    z-index: 10;
+    right: auto;
+    display: none;
+}
+
+.carousel {
+    position: relative;
+    top:69px;
+}
+
+.col-lg-6.highlight strong {
+    font-size: 22px;
+}
+
+button.btn.btn-outline-warning.knowmore {
+    background-color: #921d61;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.price_inner {
+    border: 1px solid #921d61;
+    text-align: center;
+    position: relative;
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+
+.specific-inner.text-center p {
+    text-align: justify;
+}
+
+iframe {
+    width:100%;
+}
+
+ul.resi_list {
+    margin-left: 4%;
+}
+
+.col-lg-6.col-sm-6.amenities {
+    background-color: #921d61;
+    padding: 20px 0px;
+}
+
+div#pricelistid h2 {
+    text-align: center;
+    font-size: 24px;
+}
+
+div#amen img {
+    
+    width: 100%;
+}
+
+.h3.amenities-heading {
+    text-align: center;
+    color: #ffffff;
+    margin-top: 2%;
+    margin-bottom: 16px;
+    font-size: 23px;
+}
+
+p.webi {
+    text-align: center;
+    color: #fff;
+    padding: 10px 0;
+    background-color: #921d61!important;
+    display: block;
+    width: 100%;
+    font-size: 13px;
+}
+
+
+
+}
